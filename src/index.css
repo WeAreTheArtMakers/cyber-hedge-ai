@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Orbitron', monospace;
+    background: #0A0A0A;
+    color: #00FFFF;
+    position: relative;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      linear-gradient(rgba(0, 255, 255, 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .text-neon-blue {
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF;
+  }
+  
+  .text-neon-green {
+    color: #39FF14;
+    text-shadow: 0 0 10px #39FF14;
+  }
+  
+  .text-neon-pink {
+    color: #FF1493;
+    text-shadow: 0 0 10px #FF1493;
+  }
+  
+  .text-neon-purple {
+    color: #9400D3;
+    text-shadow: 0 0 10px #9400D3;
+  }
+  
+  .border-neon-blue {
+    border-color: #00FFFF;
+    box-shadow: 0 0 10px #00FFFF33;
+  }
+  
+  .border-neon-green {
+    border-color: #39FF14;
+    box-shadow: 0 0 10px #39FF1433;
+  }
+  
+  .border-neon-pink {
+    border-color: #FF1493;
+    box-shadow: 0 0 10px #FF149333;
+  }
+  
+  .bg-cyber-dark {
+    background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+  }
+  
+  .bg-cyber-card {
+    background: linear-gradient(135deg, #1A1A1A 0%, #2A2A2A 100%);
+    border: 1px solid #00FFFF33;
+    box-shadow: 0 0 20px #00FFFF11;
+  }
+  
+  
+  .cyber-glow {
+    box-shadow: 0 0 20px #00FFFF44;
+  }
+  
+  .cyber-pulse {
+    animation: pulse-neon 2s infinite;
+  }
+  
+  @keyframes pulse-neon {
+    0%, 100% {
+      box-shadow: 0 0 20px #00FFFF44;
+    }
+    50% {
+      box-shadow: 0 0 30px #00FFFF66;
+    }
+  }
+  
+  .cyber-text {
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 0.05em;
+  }
+  
+  .cyber-border {
+    position: relative;
+  }
+  
+  .cyber-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #00FFFF, #FF1493, #39FF14, #9400D3);
+    padding: 2px;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    border-radius: 8px;
+    pointer-events: none; /* Tıklama olaylarını engellemek için eklendi */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #1A1A1A;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #00FFFF;
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #39FF14;
+  }
+}

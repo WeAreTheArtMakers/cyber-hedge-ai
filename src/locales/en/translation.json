@@ -1,0 +1,71 @@
+{
+  "header": {
+    "signals": "SIGNALS",
+    "portfolio": "PORTFOLIO",
+    "analytics": "ANALYTICS",
+    "connect_wallet": "CONNECT WALLET",
+    "disconnect": "Disconnect"
+  },
+  "market_ticker": {
+    "market_data": "MARKET DATA"
+  },
+  "signal_card": {
+    "no_active_signal": "No active signal",
+    "long": "LONG",
+    "short": "SHORT",
+    "active": "ACTIVE",
+    "entry_price": "Entry Price",
+    "target_price": "Target Price",
+    "live_price": "LIVE PRICE",
+    "change_24h": "24h change",
+    "progress_to_target": "Progress to Target",
+    "pnl": "P/L",
+    "stop_loss": "Stop Loss",
+    "created_at": "Created at"
+  },
+  "signals_page": {
+    "title": "QUANTUM TRADING SIGNALS",
+    "description": "Real-time crypto signals powered by technical analysis (RSI, MACD).",
+    "add_token": "Add Token",
+    "add_token_placeholder": "e.g., DOGE",
+    "timeframe": "Timeframe",
+    "scan_button": "SCAN FOR SIGNALS",
+    "scanning_button": "SCANNING...",
+    "tracked_tokens": "TRACKED TOKENS",
+    "no_signals": "No signals found. Scan again or add new tokens to track.",
+    "connect_wallet_prompt": "Please connect your wallet to view signals.",
+    "hold_modx_prompt": "You need to hold modX tokens to view signals."
+  },
+  "portfolio_page": {
+    "title": "PORTFOLIO",
+    "total_value": "Total Value",
+    "add_asset_form": {
+      "token": "Token (e.g., BTC)",
+      "amount": "Amount",
+      "avg_buy_price": "Avg. Buy Price (Optional)",
+      "add_asset_button": "Add Asset"
+    },
+    "assets_table": {
+      "asset": "Asset",
+      "amount": "Amount",
+      "avg_buy_price": "Avg. Buy Price",
+      "current_price": "Current Price",
+      "value": "Value",
+      "pnl": "P/L",
+      "actions": "Actions"
+    }
+  },
+  "analytics_page": {
+    "title": "ANALYTICS",
+    "market_sentiment": "Market Sentiment",
+    "sentiment_index_subtitle": "Volume-Weighted Fear & Greed Index (24h)",
+    "opportunity_scanner": "Opportunity Scanner",
+    "search_tokens_placeholder": "Search tokens...",
+    "opportunity_score": "Opportunity Score",
+    "latest_news": "Latest News",
+    "no_strong_signal": "No strong signal detected. Current Price:"
+  },
+  "footer": {
+    "powered_by": "Powered by modFxMarket"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "header": {
+    "signals": "SEGNALI",
+    "portfolio": "PORTAFOGLIO",
+    "analytics": "ANALISI",
+    "connect_wallet": "CONNETTI WALLET",
+    "disconnect": "Disconnetti"
+  },
+  "market_ticker": {
+    "market_data": "DATI DI MERCATO"
+  },
+  "signal_card": {
+    "no_active_signal": "Nessun segnale attivo",
+    "long": "ACQUISTA",
+    "short": "VENDI",
+    "active": "ATTIVO",
+    "entry_price": "Prezzo di Ingresso",
+    "target_price": "Prezzo Target",
+    "live_price": "PREZZO LIVE",
+    "change_24h": "Variazione 24h",
+    "progress_to_target": "Progresso verso il Target",
+    "pnl": "P/L Attuale",
+    "stop_loss": "Stop Loss",
+    "created_at": "Creato il"
+  },
+  "signals_page": {
+    "title": "SEGNALI DI TRADING QUANTISTICI",
+    "description": "Segnali di criptovalute in tempo reale basati sull'analisi tecnica (RSI, MACD).",
+    "add_token": "Aggiungi Token",
+    "add_token_placeholder": "es. DOGE",
+    "timeframe": "Intervallo",
+    "scan_button": "SCANSIONA SEGNALI",
+    "scanning_button": "SCANSIONE...",
+    "tracked_tokens": "TOKEN TRACCIATI",
+    "no_signals": "Nessun segnale trovato. Scansiona di nuovo o aggiungi nuovi token da tracciare.",
+    "connect_wallet_prompt": "Per favore, connetti il tuo wallet per visualizzare i segnali.",
+    "hold_modx_prompt": "Devi possedere token modX per visualizzare i segnali."
+  },
+  "portfolio_page": {
+    "title": "PORTAFOGLIO",
+    "total_value": "Valore Totale",
+    "add_asset_form": {
+      "token": "Token (es. BTC)",
+      "amount": "Quantità",
+      "avg_buy_price": "Prezzo medio di acquisto (Opzionale)",
+      "add_asset_button": "Aggiungi Asset"
+    },
+    "assets_table": {
+      "asset": "Asset",
+      "amount": "Quantità",
+      "avg_buy_price": "Prezzo medio acquisto",
+      "current_price": "Prezzo Corrente",
+      "value": "Valore",
+      "pnl": "P/L",
+      "actions": "Azioni"
+    }
+  },
+  "analytics_page": {
+    "title": "ANALISI",
+    "market_sentiment": "Sentimento di Mercato",
+    "sentiment_index_subtitle": "Indice di Paura e Avidità Ponderato per il Volume (24h)",
+    "opportunity_scanner": "Scanner di Opportunità",
+    "search_tokens_placeholder": "Cerca token...",
+    "opportunity_score": "Punteggio Opportunità",
+    "latest_news": "Ultime Notizie",
+    "no_strong_signal": "Nessun segnale forte rilevato. Prezzo attuale:"
+  },
+  "footer": {
+    "powered_by": "Realizzato da modFxMarket"
+  }
+}

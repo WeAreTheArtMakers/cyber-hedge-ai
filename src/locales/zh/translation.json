@@ -1,0 +1,71 @@
+{
+  "header": {
+    "signals": "信号",
+    "portfolio": "投资组合",
+    "analytics": "分析",
+    "connect_wallet": "连接钱包",
+    "disconnect": "断开连接"
+  },
+  "market_ticker": {
+    "market_data": "市场数据"
+  },
+  "signal_card": {
+    "no_active_signal": "无有效信号",
+    "long": "做多",
+    "short": "做空",
+    "active": "有效",
+    "entry_price": "入场价",
+    "target_price": "目标价",
+    "live_price": "实时价格",
+    "change_24h": "24小时变化",
+    "progress_to_target": "向目标进度",
+    "pnl": "盈/亏",
+    "stop_loss": "止损",
+    "created_at": "创建于"
+  },
+  "signals_page": {
+    "title": "量子交易信号",
+    "description": "由技术分析（RSI, MACD）驱动的实时加密信号。",
+    "add_token": "添加代币",
+    "add_token_placeholder": "例如：DOGE",
+    "timeframe": "时间框架",
+    "scan_button": "扫描信号",
+    "scanning_button": "扫描中...",
+    "tracked_tokens": "跟踪的代币",
+    "no_signals": "未找到信号。请再次扫描或添加新代币进行跟踪。",
+    "connect_wallet_prompt": "请连接您的钱包以查看信号。",
+    "hold_modx_prompt": "您需要持有 modX 代币才能查看信号。"
+  },
+  "portfolio_page": {
+    "title": "投资组合",
+    "total_value": "总价值",
+    "add_asset_form": {
+      "token": "代币 (例如: BTC)",
+      "amount": "数量",
+      "avg_buy_price": "平均买入价 (可选)",
+      "add_asset_button": "添加资产"
+    },
+    "assets_table": {
+      "asset": "资产",
+      "amount": "数量",
+      "avg_buy_price": "平均买入价",
+      "current_price": "当前价格",
+      "value": "价值",
+      "pnl": "盈/亏",
+      "actions": "操作"
+    }
+  },
+  "analytics_page": {
+    "title": "分析",
+    "market_sentiment": "市场情绪",
+    "sentiment_index_subtitle": "成交量加权恐惧与贪婪指数 (24小时)",
+    "opportunity_scanner": "机会扫描器",
+    "search_tokens_placeholder": "搜索代币...",
+    "opportunity_score": "机会得分",
+    "latest_news": "最新消息",
+    "no_strong_signal": "未检测到强信号。当前价格："
+  },
+  "footer": {
+    "powered_by": "由 modFxMarket 提供支持"
+  }
+}

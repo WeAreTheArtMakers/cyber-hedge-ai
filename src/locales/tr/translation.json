@@ -1,0 +1,71 @@
+{
+  "header": {
+    "signals": "SİNYALLER",
+    "portfolio": "PORTFÖY",
+    "analytics": "ANALİTİK",
+    "connect_wallet": "CÜZDAN BAĞLA",
+    "disconnect": "Bağlantıyı Kes"
+  },
+  "market_ticker": {
+    "market_data": "PİYASA VERİLERİ"
+  },
+  "signal_card": {
+    "no_active_signal": "Aktif bir sinyal yok",
+    "long": "AL",
+    "short": "SAT",
+    "active": "AKTİF",
+    "entry_price": "Giriş Fiyatı",
+    "target_price": "Hedef Fiyat",
+    "live_price": "CANLI FİYAT",
+    "change_24h": "24s değişim",
+    "progress_to_target": "Hedefe İlerleme",
+    "pnl": "Anlık Kar/Zarar",
+    "stop_loss": "Stop Loss",
+    "created_at": "Oluşturuldu"
+  },
+  "signals_page": {
+    "title": "KUANTUM TİCARET SİNYALLERİ",
+    "description": "Teknik analize (RSI, MACD) dayalı gerçek zamanlı kripto sinyalleri.",
+    "add_token": "Token Ekle",
+    "add_token_placeholder": "örn: DOGE",
+    "timeframe": "Zaman Aralığı",
+    "scan_button": "SİNYALLERİ TARA",
+    "scanning_button": "TARANIYOR...",
+    "tracked_tokens": "TAKİP EDİLEN TOKEN'LAR",
+    "no_signals": "Sinyal bulunamadı. Tekrar tarayın veya takip etmek için yeni token'lar ekleyin.",
+    "connect_wallet_prompt": "Sinyalleri görmek için lütfen cüzdanınızı bağlayın.",
+    "hold_modx_prompt": "Sinyalleri görmek için modX token sahibi olmalısınız."
+  },
+  "portfolio_page": {
+    "title": "PORTFÖY",
+    "total_value": "Toplam Değer",
+    "add_asset_form": {
+      "token": "Token (örn: BTC)",
+      "amount": "Miktar",
+      "avg_buy_price": "Ort. Alış Fiyatı (İsteğe Bağlı)",
+      "add_asset_button": "Varlık Ekle"
+    },
+    "assets_table": {
+      "asset": "Varlık",
+      "amount": "Miktar",
+      "avg_buy_price": "Ort. Alış Fiyatı",
+      "current_price": "Anlık Fiyat",
+      "value": "Değer",
+      "pnl": "K/Z",
+      "actions": "İşlemler"
+    }
+  },
+  "analytics_page": {
+    "title": "ANALİTİK",
+    "market_sentiment": "Piyasa Duyarlılığı",
+    "sentiment_index_subtitle": "Hacim Ağırlıklı Korku ve Açgözlülük Endeksi (24s)",
+    "opportunity_scanner": "Fırsat Tarayıcı",
+    "search_tokens_placeholder": "Token ara...",
+    "opportunity_score": "Fırsat Skoru",
+    "latest_news": "Son Haberler",
+    "no_strong_signal": "Güçlü bir sinyal bulunamadı. Anlık Fiyat:"
+  },
+  "footer": {
+    "powered_by": "modFxMarket tarafından desteklenmektedir"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "header": {
+    "signals": "SIGNALE",
+    "portfolio": "PORTFOLIO",
+    "analytics": "ANALYTIK",
+    "connect_wallet": "WALLET VERBINDEN",
+    "disconnect": "Trennen"
+  },
+  "market_ticker": {
+    "market_data": "MARKTDATEN"
+  },
+  "signal_card": {
+    "no_active_signal": "Kein aktives Signal",
+    "long": "KAUFEN",
+    "short": "VERKAUFEN",
+    "active": "AKTIV",
+    "entry_price": "Einstiegspreis",
+    "target_price": "Zielpreis",
+    "live_price": "LIVE-PREIS",
+    "change_24h": "24h Änderung",
+    "progress_to_target": "Fortschritt zum Ziel",
+    "pnl": "G/V",
+    "stop_loss": "Stop-Loss",
+    "created_at": "Erstellt am"
+  },
+  "signals_page": {
+    "title": "QUANTEN-HANDELSSIGNALE",
+    "description": "Echtzeit-Kryptosignale basierend auf technischer Analyse (RSI, MACD).",
+    "add_token": "Token hinzufügen",
+    "add_token_placeholder": "z.B. DOGE",
+    "timeframe": "Zeitrahmen",
+    "scan_button": "SIGNALE SCANNEN",
+    "scanning_button": "SCANNE...",
+    "tracked_tokens": "VERFOLGTE TOKENS",
+    "no_signals": "Keine Signale gefunden. Erneut scannen oder neue Tokens zum Verfolgen hinzufügen.",
+    "connect_wallet_prompt": "Bitte verbinden Sie Ihr Wallet, um Signale anzuzeigen.",
+    "hold_modx_prompt": "Sie müssen modX-Token halten, um Signale anzuzeigen."
+  },
+  "portfolio_page": {
+    "title": "PORTFOLIO",
+    "total_value": "Gesamtwert",
+    "add_asset_form": {
+      "token": "Token (z.B. BTC)",
+      "amount": "Menge",
+      "avg_buy_price": "Durchschn. Kaufpreis (Optional)",
+      "add_asset_button": "Asset hinzufügen"
+    },
+    "assets_table": {
+      "asset": "Asset",
+      "amount": "Menge",
+      "avg_buy_price": "Durchschn. Kaufpreis",
+      "current_price": "Aktueller Preis",
+      "value": "Wert",
+      "pnl": "G/V",
+      "actions": "Aktionen"
+    }
+  },
+  "analytics_page": {
+    "title": "ANALYTIK",
+    "market_sentiment": "Marktstimmung",
+    "sentiment_index_subtitle": "Volumengewichteter Angst- und Gier-Index (24h)",
+    "opportunity_scanner": "Chancen-Scanner",
+    "search_tokens_placeholder": "Tokens suchen...",
+    "opportunity_score": "Chancen-Score",
+    "latest_news": "Neueste Nachrichten",
+    "no_strong_signal": "Kein starkes Signal erkannt. Aktueller Preis:"
+  },
+  "footer": {
+    "powered_by": "Unterstützt von modFxMarket"
+  }
+}
