@@ -65,3 +65,4 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 - **Market Sentiment:** Piyasanın genel duyarlılığını gösteren bir "Korku ve Açgözlülük" endeksi sunar.
 - **Opportunity Scanner:** Kullanıcının aradığı token için anlık bir teknik analiz yaparak potansiyel fırsatları değerlendirir.
 - **Latest News:** CryptoPanic üzerinden canlı bir haber akışı sunar.
+# cyber-hedge-ai

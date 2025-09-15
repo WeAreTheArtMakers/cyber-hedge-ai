@@ -19,7 +19,7 @@ type Kline = [number, string, string, string, string, string, number, string, nu
 // Binance API'sinden mum verilerini çeken fonksiyon
 export const getKlineData = async (symbol: string = 'BTCUSDT', interval: string = '4h', limit: number = 200) => {
   try {
-    const response = await fetch(`/api/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`);
+    const response = await fetch(`/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`);
     if (!response.ok) throw new Error(`Binance API error: ${response.statusText}`);
     const data: Kline[] = await response.json();
     
@@ -39,7 +39,7 @@ export const getKlineData = async (symbol: string = 'BTCUSDT', interval: string 
 // Tek bir token'ın anlık fiyatını çeken fonksiyon
 export const fetchCurrentPrice = async (symbol: string) => {
   try {
-    const response = await fetch(`/api/api/v3/ticker/price?symbol=${symbol}`);
+    const response = await fetch(`/api/v3/ticker/price?symbol=${symbol}`);
     if (!response.ok) throw new Error(`Binance API error: ${response.statusText}`);
     const data = await response.json();
     return parseFloat(data.price);
